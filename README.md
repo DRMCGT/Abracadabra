@@ -1,6 +1,12 @@
 # Abracadabra Password Generator
 
-A quick and easy mock password generator built during the Scrimba learning journey. It runs entirely in the browser and is packaged as a small Chrome extension.
+A quick and easy mock password generator built as a Scrimba learning project. It runs entirely in the browser and is packaged as a small Chrome extension.
+
+<p align="center">
+   <img src="assets/scrimba_logo.jpg" alt="Scrimba" width="96">
+</p>
+
+This project was inspired by the Scrimba learning experience. Scrimba is credited here in the repository documentation only; it is not part of the extension branding.
 
 > **Important:** This is a learning and testing project. Do not use generated passwords for real accounts. For production credentials, use a trusted password manager.
 
@@ -49,10 +55,14 @@ Do not commit passwords, tokens, or other secrets.
 
 Edit `index.html`, `index.js`, or `style.css`, then return to `chrome://extensions` and press **Reload** on the extension card. Chrome will show manifest or JavaScript errors on that page if something needs attention.
 
-## Open Source Direction
+## Contributing
 
-This project is intended to grow from a Scrimba exercise into a welcoming public learning project. Suggested next contributions are automated tests for password rules, stronger accessibility checks, optional passphrase generation, and a contribution guide. Add a license file before accepting external contributions.
+This is an open-source learning project, and focused contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Useful next contributions include automated tests for password rules, stronger accessibility checks, and optional passphrase generation.
+
+## License
+
+Released under the [MIT License](LICENSE). See [SECURITY.md](SECURITY.md) for reporting security concerns.
 
 ## Credits
 
-Created as part of a Scrimba learning project. Brand artwork is stored in `assets/`.
+Created as part of a Scrimba learning project. The Abracadabra artwork is stored in `assets/`.
