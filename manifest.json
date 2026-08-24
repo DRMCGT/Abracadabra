@@ -3,8 +3,18 @@
   "name": "Abracadabra Password Generator",
   "description": "A quick and easy mock password generator for development and testing.",
   "version": "1.0.0",
+  "icons": {
+    "16": "assets/logoabra.jpeg",
+    "32": "assets/logoabra.jpeg",
+    "48": "assets/logoabra.jpeg",
+    "128": "assets/logoabra.jpeg"
+  },
   "action": {
     "default_title": "Abracadabra Password Generator",
+    "default_icon": {
+      "16": "assets/logoabra.jpeg",
+      "32": "assets/logoabra.jpeg"
+    },
     "default_popup": "index.html"
   }
 }
