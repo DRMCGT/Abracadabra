@@ -26,6 +26,7 @@ button { font: 700 13px Arial, sans-serif; cursor: pointer; }
 .password-display { min-width: 0; flex: 1; overflow: hidden; padding: 12px; color: #f6f7fb; background: #171821; border-radius: 8px; font: 13px/1.2 monospace; text-overflow: ellipsis; white-space: nowrap; }
 .copy-button { padding: 10px 11px; color: #f4d35e; background: transparent; border: 1px solid #5f6072; border-radius: 8px; }
 .copy-button:hover, .copy-button:focus-visible { border-color: #f4d35e; }
+.disclaimer { margin: 14px 0 0; color: #aaaabc; font: 11px/1.45 Arial, sans-serif; }
 button:focus-visible, input:focus-visible { outline: 2px solid #f4d35e; outline-offset: 2px; }
 .app-footer { display: flex; align-items: center; gap: 8px; margin-top: 20px; color: #9f9eae; font: 11px Arial, sans-serif; }
 .app-footer img { width: 22px; height: 22px; object-fit: cover; border-radius: 5px; }
