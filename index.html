@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abracadabra Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main class="app-shell">
+        <header class="app-header">
+            <img class="brand-mark" src="assets/logoabra.jpeg" alt="Abracadabra logo">
+            <div>
+                <p class="eyebrow">Scrimba project</p>
+                <h1>Abracadabra</h1>
+                <p class="subtitle">Quick, easy mock passwords.</p>
+            </div>
+        </header>
+        <section class="controls" aria-labelledby="options-title">
+            <div class="section-heading"><h2 id="options-title">Password options</h2><span class="privacy-note">Generated in your browser</span></div>
+            <label for="lengthSelect">Length <output id="lengthValue">12</output></label>
+            <input id="lengthSelect" type="range" min="8" max="32" value="12" step="1">
+            <div class="option-grid">
+                <label class="toggle-option"><input id="includeNumbers" type="checkbox" checked><span>Numbers</span></label>
+                <label class="toggle-option"><input id="includeSymbols" type="checkbox" checked><span>Symbols</span></label>
+            </div>
+            <button id="generateBtn" class="generate-button" type="button">Generate passwords</button>
+        </section>
+        <section class="results" aria-labelledby="results-title">
+            <div class="section-heading"><h2 id="results-title">Your passwords</h2><span id="statusMessage" class="status-message" role="status" aria-live="polite"></span></div>
+            <div class="password-row"><output id="passwordDisplay" class="password-display">Click generate to begin</output><button class="copy-button" type="button" data-copy-target="passwordDisplay" aria-label="Copy first password">Copy</button></div>
+            <div class="password-row"><output id="passwordDisplay2" class="password-display">Click generate to begin</output><button class="copy-button" type="button" data-copy-target="passwordDisplay2" aria-label="Copy second password">Copy</button></div>
+        </section>
+        <footer class="app-footer"><img src="assets/scrimba_logo.jpg" alt="Scrimba logo"><span>Open source learning project</span></footer>
+    </main>
+</body>
+</html>

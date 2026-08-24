@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Abracadabra Password Generator",
+  "description": "A quick and easy mock password generator for development and testing.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Abracadabra Password Generator",
+    "default_popup": "index.html"
+  }
+}
