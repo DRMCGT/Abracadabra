@@ -8,6 +8,9 @@ A quick and easy mock password generator built as a Scrimba learning project. It
 
 This project was inspired by the Scrimba learning experience. Scrimba is credited here in the repository documentation only; it is not part of the extension branding.
 
+The backend and frontend were built for me, and the AI was perfected to build a Chrome Extension. 
+
+
 > **Important:** This is a learning and testing project. Do not use generated passwords for real accounts. For production credentials, use a trusted password manager.
 
 ## Features
